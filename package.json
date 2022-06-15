@@ -1,0 +1,29 @@
+{
+  "name": "cb_breakfast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean-html": "npx prettier --write '*.html'",
+    "prettier": "npx prettier --write .",
+    "eslint": "npx eslint './*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benji-Dev/CB_Breakfast.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benji-Dev/CB_Breakfast/issues"
+  },
+  "homepage": "https://github.com/Benji-Dev/CB_Breakfast#readme",
+  "devDependencies": {
+    "eslint": "~8.17.0",
+    "eslint-plugin-react": "~7.30.0",
+    "husky": "~8.0.1",
+    "prettier": "2.7.0"
+  }
+}
